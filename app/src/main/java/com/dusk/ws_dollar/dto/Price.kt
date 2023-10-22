@@ -6,5 +6,6 @@ data class Price(
     val name: String,
     val buy: PriceVal,
     val sell: PriceVal,
-    val timestamp: Date
+    val date: Date,
+    val timestamp: Long,
 )

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvTimestamp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleDollarTw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dólar Bolsa" />
+
+    <TextView
+        android:id="@+id/priceBuyTw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy: $1000.20" />
+
+    <TextView
+        android:id="@+id/priceSellTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sell: $1016.20" />
+
+    <TextView
+        android:id="@+id/timestampTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fri 29 Oct 16:17:00 GMT-03:00 2023" />
+</LinearLayout>
